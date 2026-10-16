@@ -74,18 +74,6 @@ python -m ta_fu.experiments.run_ablation --dataset both --seeds 5
 python scripts/generate_report.py
 ```
 
-## Key documents
-
-- `docs/METHODOLOGY.md` — every equation, and every design decision that
-  differs from the original single-file script (with a stated reason).
-- `docs/THREAT_MODEL.md` — the explicit honest-but-curious / update-observer
-  threat model.
-- `docs/DP_POSITIONING.md` — why TA-FU is *empirical* reconstruction-risk
-  mitigation, not formal differential privacy, and why no DP baseline is
-  implemented.
-- `docs/ARCHITECTURE_REVIEW.md` — what existed, what was added, and why.
-- `docs/VERIFICATION_CHECKLIST.md` — the Section 33 checklist, filled in
-  against what was actually run.
 
 ## Reproducibility
 
